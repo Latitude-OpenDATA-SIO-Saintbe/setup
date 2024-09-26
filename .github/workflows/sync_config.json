@@ -1,8 +1,8 @@
 {
     "log_level": "debug",
     "ado": {
-        "organization": "Latitude-OpenDATA-SIO-Saintbe",
-        "project": "my project",
+        "organization": "SIO2025OPENDATAmeteo",
+        "project": "Meteo",
         "wit": "User Story",
         "states": {
             "new": "New",
