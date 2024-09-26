@@ -13,14 +13,14 @@
         },
         "bypassRules": true,
         "autoCreate": true,
-        "assignedTo": "default@myorganization.com",
-        "areaPath": "my_project\\A Path",
-        "iterationPath": "my_project\\Sprint 2",
+        "assignedTo": "ClementBobin@organization.com",
+        "areaPath": "project_name\\Accessibility",
+        "iterationPath": "project_name\\Sprint 1",
         "mappings": {
-            "handles": {
-                "user_a": "user.a@myorganization.com",
-                "user_b": "user.b@myorganization.com"
-            }
+              "handles": {
+                "alexman0145": "alexman0145@organization.com",
+                "ClementBobin": "ClementBobin@organization.com"
+              }
         }
-    }
 }
+
