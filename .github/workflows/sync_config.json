@@ -1,7 +1,7 @@
 {
     "log_level": "debug",
     "ado": {
-        "organization": "my_ado_organization",
+        "organization": "Latitude-OpenDATA-SIO-Saintbe",
         "project": "my project",
         "wit": "User Story",
         "states": {
