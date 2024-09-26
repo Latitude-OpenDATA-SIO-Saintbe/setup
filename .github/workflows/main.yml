@@ -1,3 +1,21 @@
-              - name: GitSync: Sync GitHub and Azure DevOps activities
-                uses: a11smiles/GitSync@v1.2.3
-            
+name: Sync with Azure DevOps
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  issues:
+    types: [opened, closed, deleted, reopened, edited, labeled, unlabeled, assigned, unassigned]
+  issue_comment:
+    types: [created]
+
+jobs:
+  alert:
+    runs-on: ubuntu-latest
+    name: Sync workflow
+    steps:       
+    - uses: actions/checkout@v3
+    - uses: a11smiles/GitSync@main
+      env:     
+        ado_token: 'bmzmstpfeptnsmzqknurs2fuzhvjzg5tnzd7rnrirn3wsyft3idq'
+        github_token: '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'
+        config_file: './.github/workflows/sync_config.json'
