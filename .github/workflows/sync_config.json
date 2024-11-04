@@ -14,8 +14,8 @@
         "bypassRules": true,
         "autoCreate": true,
         "assignedTo": "ClementBobin@organization.com",
-        "areaPath": "project_name\\Accessibility",
-        "iterationPath": "project_name\\Sprint 1",
+        "areaPath": "Meteo\\Accessibility",
+        "iterationPath": "Meteo\\Sprint 1",
         "mappings": {
               "handles": {
                 "alexman0145": "alexman0145@organization.com",
