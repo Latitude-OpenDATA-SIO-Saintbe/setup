@@ -18,4 +18,4 @@ jobs:
       env:     
         ado_token: 'bmzmstpfeptnsmzqknurs2fuzhvjzg5tnzd7rnrirn3wsyft3idq'
         github_token: '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'
-        config_file: './.github/workflows/sync_config.json'
+        config_file: './sync_config.json'
