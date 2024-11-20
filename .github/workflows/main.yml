@@ -16,6 +16,6 @@ jobs:
     - uses: actions/checkout@v3
     - uses: a11smiles/GitSync@main
       env:     
-        ado_token: 'FnPgYUZLe1JVfUpQfO41bY35EYmpoPtLb4RhxL9XxqnRpY1RtkIzJQQJ99AKACAAAAAZpF8rAAASAZDOvgF7'
-        github_token: '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'
-        config_file: './sync_config.json'
+        ado_token: '${{ secrets.ADO_PERSONAL_ACCESS_TOKEN }}'
+        github_token: '${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}'
+        config_file: './.github/workflows/sync_config.json'
